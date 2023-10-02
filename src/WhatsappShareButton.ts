@@ -26,8 +26,8 @@ const WhatsappShareButton = createShareButton<{ title?: string; separator?: stri
     separator: props.separator || ' ',
   }),
   {
-    windowWidth: window.screen.width / 2,
-    windowHeight: window.screen.height / 1.5,
+    windowWidth: 800,
+    windowHeight: 600,
   },
 );
 
